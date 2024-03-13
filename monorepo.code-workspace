@@ -1,6 +1,18 @@
 {
   "folders": [
     {
+      "name": "blue-archive-ui",
+      "path": "packages/blue-archive-ui/"
+    },
+    {
+      "name": "schale-db-api",
+      "path": "packages/schale-db-api/"
+    },
+    {
+      "name": "planetarium",
+      "path": "apps/planetarium/"
+    },
+    {
       "name": "monorepo",
       "path": "."
     }
@@ -23,7 +35,10 @@
       "**/node_modules": true
     },
     //
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,

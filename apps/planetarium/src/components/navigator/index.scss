@@ -1,0 +1,13 @@
+.navigator {
+  background-color: rgba(0.25, 0.25, 0.25, 0.618);
+
+  .settings {
+    position: fixed;
+    width: 256px;
+    background-color: #555555;
+    margin: 300px 0 0 0;
+    padding: 16px;
+    border-radius: 8px;
+    z-index: 999;
+  }
+}
